@@ -62,7 +62,7 @@ De este análisis en profundidad se identifica que en la columna “Operador” 
 De la misma forma se realizan las operaciones normales de un EDA verificando la presencia de valores faltantes, valores atípicos/extremos u outliers y registros duplicados, dándoles el tratamiento adecuado.
 Aplicamos la librería “ProfilingReport” para tener un análisis mas profundo de la información contenida en cada columna. 
 
-<img src="../PI2/_src/images/ProfilingReport1.jpg"  height="250">
+<img src="_src/images/ProfilingReport1.jpg"  height="250">
 
 De este resultado podemos resaltar que el Dataframe total tiene solo un 7.9% de celdas faltantes lo que significa que es una buena fuente de información para trabajar. Adicionalmente y entendiendo que el propósito final de este ejercicio es encontrar relaciones que puedan impactar en la disminución de accidentes aéreos, puedo inferir que el 'flight_no' (Numero del vuelo) y el 'cn_ln' (Número de serie) no aportan información relevante para el objetivo final, por lo cual no las voy a tener en cuenta en adelante en los análisis que se realicen.
 

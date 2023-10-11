@@ -70,7 +70,7 @@ De este resultado podemos resaltar que el Dataframe total tiene solo un 7.9% de 
 
 Con la anterior claridad, observo que tengo un porcentaje significativo de datos nulos o vacíos en las columnas 'event_hour' con un 30% y 'route' con un 12% lo cual tengo que tener en cuenta en los análisis posteriores. Los valores inferiores al 5% no los tomo como relevantes. 
 
-<img src="../_src/images/ProfilingReport2.jpg"  height="250">
+<img src="_src/images/ProfilingReport2.jpg"  height="250">
 
 El mapa de calor de las correlaciones, muestra claramente que la información analizada tiene un alto grado de correlación lo que nos indica que se pueden hacer cruces de información con la garantía de una buena correlación.
 

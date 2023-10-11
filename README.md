@@ -66,7 +66,7 @@ Aplicamos la librería “ProfilingReport” para tener un análisis mas profund
 
 De este resultado podemos resaltar que el Dataframe total tiene solo un 7.9% de celdas faltantes lo que significa que es una buena fuente de información para trabajar. Adicionalmente y entendiendo que el propósito final de este ejercicio es encontrar relaciones que puedan impactar en la disminución de accidentes aéreos, puedo inferir que el 'flight_no' (Numero del vuelo) y el 'cn_ln' (Número de serie) no aportan información relevante para el objetivo final, por lo cual no las voy a tener en cuenta en adelante en los análisis que se realicen.
 
-<img src="../_src/images/ProfilingReport3.jpg"  height="250">
+<img src="_src/images/ProfilingReport3.jpg"  height="250">
 
 Con la anterior claridad, observo que tengo un porcentaje significativo de datos nulos o vacíos en las columnas 'event_hour' con un 30% y 'route' con un 12% lo cual tengo que tener en cuenta en los análisis posteriores. Los valores inferiores al 5% no los tomo como relevantes. 
 

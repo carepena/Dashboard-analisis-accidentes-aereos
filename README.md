@@ -76,7 +76,7 @@ El mapa de calor de las correlaciones, muestra claramente que la información an
 
 En seguida aplicamos la función Seaborn Boxplot para la detección de Outliers, en donde podemos apreciar que la mayor parte de los accidentes aéreos han tenido lugar en aeronaves con hasta 50 pasajeros aproximadamente. Adicionalmente las gráficas muestran una gran cantidad de 'Outliers' pero revisando la información en el Dataset, la realidad es que estos registros no son outliers sino información real de accidentes aéreos y por ende se toman todos los registros como validos
 
-<img src="../_src/images/SeabornBoxplot.jpg"  height="250">
+<img src="_src/images/SeabornBoxplot.jpg"  height="250">
 
 Una vez concluida la etapa de ETL y EDA, quedamos con un Dataset depurado el cual va a ser la fuente para nuestros análisis y la creación de un Dashboard en Power BI.
 
@@ -90,7 +90,7 @@ Vamos a crear un Dashboard en Power BI donde se analice la informacion suministr
 ### **Resultado**
 
 #### **Índice de fatalidad de la tripulación:** 
-<img src="../_src/images/KPI1.jpg"  height="250">
+<img src="_src/images/KPI1.jpg"  height="250">
 
 Al observar el resultado de este KPI se puede identificar que el propósito no se cumplió y que por el contrario este índice aumento en un 20.37% comparando los resultados obtenidos.  Esto se puede desglosar mirando los resultados para cada periodo:
 
@@ -112,31 +112,31 @@ Es importante resaltar dentro del análisis realizado que los 5 operadores con m
 
 * Aeroflot: Es la aerolínea bandera de la Federación de Rusia
 
-<img src="../_src/images/KPI2a.jpg"  height="250">
+<img src="_src/images/KPI2a.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.1% respecto de la decada anterior
 
 * Air France: Es la aerolínea bandera de la República Francesa
 
-<img src="../_src/images/KPI2b.jpg"  height="250">
+<img src="_src/images/KPI2b.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 15.88% respecto de la decada anterior
 
 * American Airlines: Conocida simplemente como American, es una aerolínea estadounidense
 
-<img src="../_src/images/KPI2c.jpg"  height="250">
+<img src="_src/images/KPI2c.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.08% respecto de la decada anterior
 
 * Avianca: Es la aerolínea de bandera colombiana
 
-<img src="../_src/images/KPI2d.jpg"  height="250">
+<img src="_src/images/KPI2d.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.36% respecto de la decada anterior
 
 * Garuda Indonesia Airlines: Es la línea aérea nacional de la República de Indonesia
 
-<img src="../_src/images/KPI2f.jpg"  height="250">
+<img src="_src/images/KPI2f.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.73% respecto de la decada anterior
 

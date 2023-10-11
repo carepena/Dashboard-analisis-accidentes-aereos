@@ -66,17 +66,17 @@ Aplicamos la librería “ProfilingReport” para tener un análisis mas profund
 
 De este resultado podemos resaltar que el Dataframe total tiene solo un 7.9% de celdas faltantes lo que significa que es una buena fuente de información para trabajar. Adicionalmente y entendiendo que el propósito final de este ejercicio es encontrar relaciones que puedan impactar en la disminución de accidentes aéreos, puedo inferir que el 'flight_no' (Numero del vuelo) y el 'cn_ln' (Número de serie) no aportan información relevante para el objetivo final, por lo cual no las voy a tener en cuenta en adelante en los análisis que se realicen.
 
-<img src="../PI2/_src/images/ProfilingReport3.jpg"  height="250">
+<img src="../_src/images/ProfilingReport3.jpg"  height="250">
 
 Con la anterior claridad, observo que tengo un porcentaje significativo de datos nulos o vacíos en las columnas 'event_hour' con un 30% y 'route' con un 12% lo cual tengo que tener en cuenta en los análisis posteriores. Los valores inferiores al 5% no los tomo como relevantes. 
 
-<img src="../PI2/_src/images/ProfilingReport2.jpg"  height="250">
+<img src="../_src/images/ProfilingReport2.jpg"  height="250">
 
 El mapa de calor de las correlaciones, muestra claramente que la información analizada tiene un alto grado de correlación lo que nos indica que se pueden hacer cruces de información con la garantía de una buena correlación.
 
 En seguida aplicamos la función Seaborn Boxplot para la detección de Outliers, en donde podemos apreciar que la mayor parte de los accidentes aéreos han tenido lugar en aeronaves con hasta 50 pasajeros aproximadamente. Adicionalmente las gráficas muestran una gran cantidad de 'Outliers' pero revisando la información en el Dataset, la realidad es que estos registros no son outliers sino información real de accidentes aéreos y por ende se toman todos los registros como validos
 
-<img src="../PI2/_src/images/SeabornBoxplot.jpg"  height="250">
+<img src="../_src/images/SeabornBoxplot.jpg"  height="250">
 
 Una vez concluida la etapa de ETL y EDA, quedamos con un Dataset depurado el cual va a ser la fuente para nuestros análisis y la creación de un Dashboard en Power BI.
 
@@ -90,7 +90,7 @@ Vamos a crear un Dashboard en Power BI donde se analice la informacion suministr
 ### **Resultado**
 
 #### **Índice de fatalidad de la tripulación:** 
-<img src="../PI2/_src/images/KPI1.jpg"  height="250">
+<img src="../_src/images/KPI1.jpg"  height="250">
 
 Al observar el resultado de este KPI se puede identificar que el propósito no se cumplió y que por el contrario este índice aumento en un 20.37% comparando los resultados obtenidos.  Esto se puede desglosar mirando los resultados para cada periodo:
 
@@ -112,31 +112,31 @@ Es importante resaltar dentro del análisis realizado que los 5 operadores con m
 
 * Aeroflot: Es la aerolínea bandera de la Federación de Rusia
 
-<img src="../PI2/_src/images/KPI2a.jpg"  height="250">
+<img src="../_src/images/KPI2a.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.1% respecto de la decada anterior
 
 * Air France: Es la aerolínea bandera de la República Francesa
 
-<img src="../PI2/_src/images/KPI2b.jpg"  height="250">
+<img src="../_src/images/KPI2b.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 15.88% respecto de la decada anterior
 
 * American Airlines: Conocida simplemente como American, es una aerolínea estadounidense
 
-<img src="../PI2/_src/images/KPI2c.jpg"  height="250">
+<img src="../_src/images/KPI2c.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.08% respecto de la decada anterior
 
 * Avianca: Es la aerolínea de bandera colombiana
 
-<img src="../PI2/_src/images/KPI2d.jpg"  height="250">
+<img src="../_src/images/KPI2d.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.36% respecto de la decada anterior
 
 * Garuda Indonesia Airlines: Es la línea aérea nacional de la República de Indonesia
 
-<img src="../PI2/_src/images/KPI2f.jpg"  height="250">
+<img src="../_src/images/KPI2f.jpg"  height="250">
 
 Presenta un valor negativo con un incremento del 14.73% respecto de la decada anterior
 
